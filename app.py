@@ -5,7 +5,6 @@ import re
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
-from sklearn.metrics import precision_score, recall_score, f1_score, log_loss, accuracy_score
 
 decisionTreeClassifier = pickle.load(open('DecisionTreeClassifier.pkl', 'rb'))
 kNeighborsClassifier = pickle.load(open('KNeighborsClassifier.pkl', 'rb'))
